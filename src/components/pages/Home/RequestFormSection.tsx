@@ -97,7 +97,7 @@ function FileField({
         {label}
         {required && " *"}
       </label>
-      <div className="border-brand-black relative rounded-lg border border-dashed bg-white p-4">
+      <div className="border-brand-black relative rounded-lg border border-dashed bg-brand-white p-4">
         <p className="absolute flex items-center gap-2">
           <FontAwesomeIcon
             icon={faArrowUpFromBracket}

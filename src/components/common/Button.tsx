@@ -19,9 +19,10 @@ export default function Button({
     <button
       onClick={onClick}
       className={cx(
-        "bg-brand-black rounded-3xl border border-transparent px-5 py-[8.5px] text-white transition-colors duration-300 hover:cursor-pointer hover:border-dashed hover:border-black hover:bg-white hover:text-black",
+        "bg-brand-black text-brand-white rounded-3xl border border-transparent px-5 py-[8.5px] transition-colors duration-300 hover:cursor-pointer hover:border-dashed hover:border-black hover:bg-white hover:text-black",
         className,
-      )}>
+      )}
+    >
       {text}
     </button>
   );

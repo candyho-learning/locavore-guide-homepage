@@ -6,7 +6,7 @@ export default function HeroSection() {
   const infoClassNames =
     "max-w-54.5 shrink-0 text-center text-2xl uppercase md:text-4xl";
   return (
-    <section className="py-20 lg:py-0">
+    <section className="py-17.5 lg:py-0">
       <div className="container flex h-175 flex-col items-center justify-between lg:flex-row">
         <motion.div
           className={infoClassNames}
