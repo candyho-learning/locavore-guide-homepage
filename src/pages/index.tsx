@@ -24,14 +24,15 @@ export default function Home({ brandsDirectory }: HomeProps) {
   return (
     <Layout
       title="Locavore"
-      description="A variety store in Greenwich Village.">
+      description="A variety store in Greenwich Village."
+    >
       <HomePage brandsDirectory={brandsDirectory} />
     </Layout>
   );
 }
 
 export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
-  // const res = await fetch("https://api.example.com/brands");
+  // const res = await fetchBrands()
   // const data = await res.json();
 
   return {
