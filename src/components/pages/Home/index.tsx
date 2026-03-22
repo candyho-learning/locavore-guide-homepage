@@ -11,6 +11,8 @@ interface HomePageProps {
 }
 
 function HomePage({ brandsDirectory }: HomePageProps) {
+  // Post to the fetch brand API:
+  // const brands = await fetchBrands();
   return (
     <div className="bg-brand-green min-w-97.5">
       <HeroSection />

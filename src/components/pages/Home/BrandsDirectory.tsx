@@ -8,7 +8,10 @@ export default function BrandsDirectory({ brands }: BrandsDirectoryProps) {
   );
 
   return (
-    <section id="our-brands" className="border-b border-dashed py-15">
+    <section
+      id="our-brands"
+      className="border-b border-dashed py-15"
+    >
       <div className="container-wide flex flex-col lg:flex-row">
         <div className="lg:sticky lg:top-20 lg:self-start">
           <h2 className="w-1/5 text-[55px] leading-[1.1] tracking-[-0.04em] md:text-[100px]">
@@ -19,7 +22,8 @@ export default function BrandsDirectory({ brands }: BrandsDirectoryProps) {
           {filteredBrands.map(([letter, items]) => (
             <div
               key={letter}
-              className="break-inside-avoid border-b border-dashed py-6 max-md:last:border-b-0">
+              className="break-inside-avoid border-b border-dashed py-6 max-md:last:border-b-0"
+            >
               <h3 className="font-neue-montreal mb-6 text-[31px] font-medium">
                 {letter}
               </h3>
@@ -27,7 +31,8 @@ export default function BrandsDirectory({ brands }: BrandsDirectoryProps) {
                 {items.map((brand, i) => (
                   <span
                     key={i}
-                    className="font-neue-montreal block text-[19px] leading-[1.7] tracking-[0.01em]">
+                    className="font-neue-montreal block text-[19px] leading-[1.7] tracking-[0.01em]"
+                  >
                     {brand}
                   </span>
                 ))}

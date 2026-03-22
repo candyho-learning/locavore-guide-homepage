@@ -12,7 +12,8 @@ export default function HeroSection() {
           className={infoClassNames}
           initial={{ scale: 0.3, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.5 }}>
+          transition={{ duration: 0.3, delay: 0.5 }}
+        >
           434 6th ST GREENWICH VILLAGE
         </motion.div>
         <Image
@@ -25,7 +26,8 @@ export default function HeroSection() {
           className={infoClassNames}
           initial={{ scale: 0.3, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.3, delay: 1 }}>
+          transition={{ duration: 0.3, delay: 1 }}
+        >
           <p>Open daily</p>
           <p>10am-7pm</p>
         </motion.div>
